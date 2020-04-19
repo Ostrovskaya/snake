@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script defer src="js/board.js"></script>
+    <script defer src="js/food.js"></script>
+    <script defer src="js/game.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/settings.js"></script>
+    <script defer src="js/snake.js"></script>
+    <script defer src="js/status.js"></script>
+    <script defer src="js/score.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Игра змейка</h1>
+        <p class="text">Уровень: <span class="level"></span></p>
+        <p class="text">Счет: <span class="currentScore"></span></p>
+        <table id="game"></table> 
+        <div class="buttons">
+            <button id="startBtn" class="button">Старт</button>
+            <button id="pauseBtn" class="button">Пауза</button>
+        </div>   
+
+        <div class="popUp hidden">
+            <p class="message popUp__text">Вы выйграли!</p>
+            <p class="popUp__text">Начать заново?</p>
+            <div class="buttons">
+                <button class="button yes">Да</button>
+                <button class="button no">Нет</button>
+            </div>  
+        </div>
+    </div>  
+
+
+</body>
+</html>

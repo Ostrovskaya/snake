@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #5b6877;
+}
+
+h1 {
+  color: #ecf1b9;
+  font-size: 45px;
+  margin: 15px;
+}
+
+.button {
+  width: 150px;
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  background: #007b32;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #009641;
+}
+
+.button:active {
+  background: #9cfb02;
+  color: black;
+}
+
+#game {
+  border-collapse: collapse;
+  margin: 30px 0;
+  min-height: 484px;
+}
+
+td {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+}
+
+.food {
+  background: #fd3e30;
+}
+
+.snakeBody {
+  background: #e7d0a5;
+}
+
+.text {
+  color: orange;
+  font-size: 24px;
+  width: 100%;
+  margin: 15px 60px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #2e353d;
+  padding: 20px;
+}
+
+.popUp {
+  position: fixed;
+  width: 400px;
+  padding: 20px;
+  background: #242529;
+  top: calc( 50% - 100px);
+  text-align: center;
+}
+
+.popUp__text {
+  color: orange;
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.message {
+  color: yellow;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
